@@ -47,7 +47,7 @@ if __name__ == "__main__":
     # grid method is used for placing
     # the widgets at respective positions
     # in table like structure .
- expression_field.grid(columnspan=5, ipadx=100)
+ expression_field.grid(columnspan=5, ipadx=50)
 
  equation.set('enter your choice')
 
