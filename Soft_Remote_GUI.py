@@ -121,7 +121,7 @@ if __name__ == "__main__":
  chnldwn.grid(row=7, column=2) 
   
  menu = Button(gui, text='MENU', fg='black', bg='grey', 
-                   command=lambda:ress("102"), height=2, width=6) 
+                   command=lambda:press("102"), height=2, width=6) 
  menu.grid(row=8, column=1) 
   
  retrn = Button(gui, text='RETURN', fg='black', bg='grey', 
