@@ -2,19 +2,19 @@ import socket
 
 def client_program():
     host = socket.gethostname()  # as both code is running on same pc
-    port = 27015  # socket server port number
+    port = 27015  # socket port number
 
-    client_socket = socket.socket()  # instantiate
-    client_socket.connect((host, port))  # connect to the server
+    client_socket = socket.socket()  
+    client_socket.connect((host, port))  # connect to server
     print('Enter the message or type Bye for closing the socket')
     message = input(" -> ")  # take input
 
-    while message.lower().strip() != 'bye':
+    while message.lower().strip() != 'Exit':
         client_socket.send(message.encode())  # send message
         data = client_socket.recv(1024).decode()  # receive response
 
         print('Received from server: ' + data)  # show in terminal
-        print('Enter the message or type Bye for closing the socket')
+        print('Enter a message or type Exit for closing the socket')
 
         message = input(" -> ")  # again take input
 
