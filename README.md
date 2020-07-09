@@ -1,2 +1,2 @@
-This is to exchange data between client and server.
-This contains both c and python files of different purposes.
+softRemoteAssignment
+This is the exerscise to get up to develop soft remote from scratch in stages
