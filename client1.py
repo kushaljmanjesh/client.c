@@ -1,6 +1,5 @@
 import socket
 
-
 def client_program():
     host = socket.gethostname()  # as both code is running on same pc
     port = 27015  # socket server port number
