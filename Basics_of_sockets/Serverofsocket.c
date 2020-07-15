@@ -107,6 +107,7 @@ int __cdecl main(void)
                 WSACleanup();
                 return 1;
             }
+
             printf("Bytes sent: %d\n", iSendResult);
         }
         else if (iResult == 0)
