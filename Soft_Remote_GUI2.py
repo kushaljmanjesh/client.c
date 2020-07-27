@@ -23,7 +23,7 @@ def clear():
 def press(num):
   bt=time.time()
   
-  if((bt-at)%2!=0):
+  if((bt-at)<=2):
   
     # point out the global expression variable
    global expression
