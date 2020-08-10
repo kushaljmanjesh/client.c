@@ -1,1 +1,43 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteGUI>
+  <Address>108.2.210.120</Adress>
+  <port>27015</port>
+  <heading>
+    <SoftRemote>
+      <KEY1>1</KEY1>
+       <KEY2>2</KEY2>
+        <KEY3>3</KEY3>
+         <KEY4>4</KEY4>
+         <KEY5>5</KEY5>
+         <KEY6>6</KEY6>
+         <KEY7>7</KEY7>
+         <KEY8>6</KEY8>
+        <KEY9>7</KEY9>
+         <KEY0>8</KEY0>
+         <VOLUP>13<VOLUP>
+        <VOLDOWN>12</VOLDOWN>
+          <CHNLUP> 104</CHNLUP>
+            <CHNLDOWN>109 </CHNLDOWN>
+              <MENU>102 </MENU>
+                <RETURN>1  </RETURN>
+                  <INFO> 115 </INFO>
+                    <OK> 28</OK>
+                      <NAV_RIGHT>106</NAV_RIGHT>
+                        <NAV_LEFT>105</NAV_LEFT>
+                          <NAV_UP> 103</NAV_UP>
+                            <NAV_DOWN>108</NAV_DOWN>
+                              <FAST_FORWARD>208</FAST_FORWARD>
+                               <REWIND>168</REWIND>
+                                <PLAY_PAUSE>57 </PLAY_PAUSE>
+                                  <POWER> 142    </POWER>    
+                                    <VOL_MUTE>50</VOLMUTE>
+                                   <FAV> 49</FAV>
+                                    <DELAY>5</DELAY>
+                                     <NUM>  5  </NUM>
+                                       <KEY_VALUE>42</KEY_VALUE>
+                                      <AMAZON_PRIME> </AMAZON_PRIME>
+                                       <NETFLIX>  </NETFLIX>
+    </SoftRemote>
+    </heading>
+  <body>This is soft remote GUI project</body>
+</RemoteGUI>
